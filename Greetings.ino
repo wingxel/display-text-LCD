@@ -19,7 +19,6 @@ void loop() {
   for (unsigned i = 0; i < greeting[0].length(); i++) {
     lcd.setCursor(i, 0);
     lcd.print(greeting[0][i]);
-    lcd.setCursor(i, 1);
     delay(100);
   }
   delay(1000);
